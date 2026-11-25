@@ -61,11 +61,11 @@ function Tarjeta({ servicio }) {
       </header>
       <Barras historial={servicio.history} />
       <dl>
-        <div><dt>Uptime 24 h</dt><dd>{servicio.uptime.toFixed(1)}%</dd></div>
-        <div><dt>Respuesta</dt><dd>{servicio.latencia} ms</dd></div>
-        <div><dt>Última revisión</dt><dd>{formatoHora(servicio.checkedAt)}</dd></div>
+        <div><dt>Uptime</dt><dd>{servicio.uptime.toFixed(1)}%</dd></div>
+        <div><dt>Resp.</dt><dd>{servicio.latencia} ms</dd></div>
+        <div><dt>Revisado</dt><dd>{formatoHora(servicio.checkedAt)}</dd></div>
       </dl>
-      <p className="nota">{servicio.nota}</p>
+      <p className="nota" title={servicio.nota}>{servicio.nota}</p>
     </article>
   );
 }

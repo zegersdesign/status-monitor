@@ -13,10 +13,10 @@
 
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--texto); font: 14px/1.45 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
-main { max-width: 1200px; margin: 0 auto; padding: 24px 16px 40px; }
+main { max-width: 1400px; margin: 0 auto; padding: 16px 12px 32px; }
 h1 { font-size: 24px; margin: 0; }
-h3 { margin: 0; font-size: 15px; }
-a { color: var(--acento); text-decoration: none; font-size: 12px; word-break: break-all; }
+h3 { margin: 0; font-size: 13px; font-weight: 600; }
+a { color: var(--acento); text-decoration: none; font-size: 11px; word-break: break-all; }
 a:hover { text-decoration: underline; }
 .sub, .muted { color: var(--muted); margin: 4px 0 0; }
 .cabecera { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 14px; align-items: flex-start; margin-bottom: 18px; }
@@ -30,28 +30,31 @@ input[type="search"] { background: var(--panel); color: var(--texto); border: 1p
 .filtros { display: flex; gap: 6px; flex-wrap: wrap; }
 .filtros button { background: var(--panel); color: var(--muted); border: 1px solid var(--borde); border-radius: 999px; padding: 6px 12px; cursor: pointer; font: inherit; }
 .filtros button.activo { color: var(--texto); border-color: var(--acento); }
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
-.tarjeta { background: var(--panel); border: 1px solid var(--borde); border-radius: 12px; padding: 14px; display: flex; flex-direction: column; gap: 10px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 8px; }
+.tarjeta { background: var(--panel); border: 1px solid var(--borde); border-radius: 10px; padding: 9px 10px; display: flex; flex-direction: column; gap: 6px; }
 .tarjeta.down { border-color: rgba(239, 68, 68, .5); }
 .tarjeta.degraded { border-color: rgba(245, 158, 11, .5); }
-.tarjeta header { display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; }
-.estado { font-size: 12px; font-weight: 600; padding: 3px 9px; border-radius: 999px; white-space: nowrap; }
+.tarjeta header { display: flex; justify-content: space-between; gap: 6px; align-items: center; }
+.tarjeta header > div { min-width: 0; display: flex; flex-direction: column; }
+.tarjeta h3 { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.estado { font-size: 11px; font-weight: 600; padding: 2px 7px; border-radius: 999px; white-space: nowrap; }
 .estado.up { color: var(--up); background: rgba(34, 197, 94, .12); }
 .estado.degraded { color: var(--degraded); background: rgba(245, 158, 11, .12); }
 .estado.down { color: var(--down); background: rgba(239, 68, 68, .12); }
-.barras { display: flex; gap: 2px; height: 22px; align-items: stretch; }
-.barra { flex: 1; border-radius: 2px; background: #2a3240; min-width: 3px; }
+.barras { display: flex; gap: 1px; height: 14px; align-items: stretch; }
+.barra { flex: 1; border-radius: 1px; background: #2a3240; min-width: 2px; }
 .barra.up { background: var(--up); }
 .barra.degraded { background: var(--degraded); }
 .barra.down { background: var(--down); }
-dl { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 0; }
+dl { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; margin: 0; }
 dl div { display: flex; flex-direction: column; }
-dt { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
-dd { margin: 2px 0 0; font-variant-numeric: tabular-nums; }
-.nota { margin: 0; color: var(--muted); font-size: 12px; }
+dt { color: var(--muted); font-size: 10px; text-transform: uppercase; letter-spacing: .03em; }
+dd { margin: 0; font-size: 12px; font-variant-numeric: tabular-nums; }
+.nota { margin: 0; color: var(--muted); font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 footer { margin-top: 36px; color: var(--muted); font-size: 12px; border-top: 1px solid var(--borde); padding-top: 14px; }
 footer p { margin: 0 0 8px; }
 @media (max-width: 520px) {
   dl { grid-template-columns: 1fr 1fr; }
+  .grid { grid-template-columns: 1fr 1fr; }
   .resumen { align-items: flex-start; }
 }
