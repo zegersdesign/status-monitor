@@ -1,3 +1,12 @@
+# Monitor de servicios: revisa los servicios cada 5 min y publica en GitHub Pages.
+# Cambios respecto a la versión anterior:
+#  1. Build y deploy separados en dos jobs: el artefacto se sube en "revisar"
+#     y "publicar" solo lo despliega. Un fallo de deploy ya no oculta el build.
+#  2. concurrency con cancel-in-progress: false: una ejecución nueva ya no
+#     cancela a la anterior a mitad de un despliegue (causa probable del
+#     error "No artifacts named github-pages").
+#  3. Node 22 (Node 20 está deprecado en los runners) y timeouts explícitos.
+
 name: Monitor de servicios
 
 on:
@@ -7,25 +16,26 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
+# Un solo grupo para todo el monitor: si hay una ejecución en curso, las nuevas
+# esperan (GitHub guarda como máximo UNA pendiente, así que no se acumulan).
 concurrency:
   group: status-monitor
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
-  revisar-y-publicar:
+  revisar:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.pages.outputs.page_url }}
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: read
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
 
       - name: Configurar GitHub Pages
@@ -35,7 +45,8 @@ jobs:
       - name: Recuperar historial anterior
         run: |
           mkdir -p public/data
-          curl -fsSL "${{ steps.pages.outputs.base_url }}/data/status.json" -o public/data/status.json || echo "Sin historial previo, se empieza de cero."
+          curl -fsSL --retry 2 "${{ steps.pages.outputs.base_url }}/data/status.json" -o public/data/status.json \
+            || echo "Sin historial previo, se empieza de cero."
 
       - run: npm ci
 
@@ -49,5 +60,16 @@ jobs:
         with:
           path: dist
 
+  publicar:
+    needs: revisar
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - id: deployment
         uses: actions/deploy-pages@v4
