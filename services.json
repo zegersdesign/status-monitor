@@ -232,6 +232,186 @@
     "grupo": "Apple"
   },
   {
+    "id": "bancochile",
+    "name": "Banco de Chile",
+    "url": "https://www.bancochile.cl",
+    "grupo": "Chile"
+  },
+  {
+    "id": "bancoestado",
+    "name": "BancoEstado",
+    "url": "https://www.bancoestado.cl",
+    "grupo": "Chile"
+  },
+  {
+    "id": "santander-cl",
+    "name": "Santander Chile",
+    "url": "https://www.santander.cl",
+    "grupo": "Chile"
+  },
+  {
+    "id": "bci",
+    "name": "BCI",
+    "url": "https://www.bci.cl",
+    "grupo": "Chile"
+  },
+  {
+    "id": "scotiabank-cl",
+    "name": "Scotiabank Chile",
+    "url": "https://www.scotiabank.cl",
+    "grupo": "Chile"
+  },
+  {
+    "id": "falabella",
+    "name": "Falabella",
+    "url": "https://www.falabella.com",
+    "grupo": "Chile"
+  },
+  {
+    "id": "mercadolibre-cl",
+    "name": "Mercado Libre Chile",
+    "url": "https://www.mercadolibre.cl",
+    "grupo": "Chile"
+  },
+  {
+    "id": "entel",
+    "name": "Entel",
+    "url": "https://www.entel.cl",
+    "grupo": "Chile"
+  },
+  {
+    "id": "movistar-cl",
+    "name": "Movistar Chile",
+    "url": "https://www.movistar.cl",
+    "grupo": "Chile"
+  },
+  {
+    "id": "wom",
+    "name": "WOM",
+    "url": "https://www.wom.cl",
+    "grupo": "Chile"
+  },
+  {
+    "id": "metro-santiago",
+    "name": "Metro de Santiago",
+    "url": "https://www.metro.cl",
+    "grupo": "Chile"
+  },
+  {
+    "id": "sii",
+    "name": "SII",
+    "url": "https://www.sii.cl",
+    "grupo": "Chile"
+  },
+  {
+    "id": "claveunica",
+    "name": "Clave Única",
+    "url": "https://claveunica.gob.cl",
+    "grupo": "Chile"
+  },
+  {
+    "id": "registro-civil",
+    "name": "Registro Civil",
+    "url": "https://www.registrocivil.cl",
+    "grupo": "Chile"
+  },
+  {
+    "id": "latam",
+    "name": "LATAM Airlines",
+    "url": "https://www.latamairlines.com",
+    "grupo": "Chile"
+  },
+  {
+    "id": "chilexpress",
+    "name": "Chilexpress",
+    "url": "https://www.chilexpress.cl",
+    "grupo": "Chile"
+  },
+  {
+    "id": "bbc",
+    "name": "BBC",
+    "url": "https://www.bbc.com",
+    "grupo": "Noticias"
+  },
+  {
+    "id": "cnn",
+    "name": "CNN",
+    "url": "https://www.cnn.com",
+    "grupo": "Noticias"
+  },
+  {
+    "id": "reuters",
+    "name": "Reuters",
+    "url": "https://www.reuters.com",
+    "grupo": "Noticias"
+  },
+  {
+    "id": "ap-news",
+    "name": "AP News",
+    "url": "https://apnews.com",
+    "grupo": "Noticias"
+  },
+  {
+    "id": "nytimes",
+    "name": "The New York Times",
+    "url": "https://www.nytimes.com",
+    "grupo": "Noticias"
+  },
+  {
+    "id": "guardian",
+    "name": "The Guardian",
+    "url": "https://www.theguardian.com",
+    "grupo": "Noticias"
+  },
+  {
+    "id": "aljazeera",
+    "name": "Al Jazeera",
+    "url": "https://www.aljazeera.com",
+    "grupo": "Noticias"
+  },
+  {
+    "id": "dw",
+    "name": "DW",
+    "url": "https://www.dw.com",
+    "grupo": "Noticias"
+  },
+  {
+    "id": "france24",
+    "name": "France 24",
+    "url": "https://www.france24.com",
+    "grupo": "Noticias"
+  },
+  {
+    "id": "elpais",
+    "name": "El País",
+    "url": "https://elpais.com",
+    "grupo": "Noticias"
+  },
+  {
+    "id": "biobio",
+    "name": "BioBioChile",
+    "url": "https://www.biobiochile.cl",
+    "grupo": "Noticias"
+  },
+  {
+    "id": "latercera",
+    "name": "La Tercera",
+    "url": "https://www.latercera.com",
+    "grupo": "Noticias"
+  },
+  {
+    "id": "emol",
+    "name": "Emol",
+    "url": "https://www.emol.com",
+    "grupo": "Noticias"
+  },
+  {
+    "id": "t13",
+    "name": "T13",
+    "url": "https://www.t13.cl",
+    "grupo": "Noticias"
+  },
+  {
     "id": "google-workspace",
     "name": "Google Workspace",
     "url": "https://workspace.google.com",
