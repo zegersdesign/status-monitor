@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import LogoMarca from "./Logo.jsx";
 
 // Datos generados por worker/check.mjs. Esquema de cada servicio:
 // { id, name, url, grupo, estado: "up"|"degraded"|"down", codigo, latencia, nota,
@@ -88,6 +89,7 @@ export default function App() {
 
   return (
     <main>
+      <LogoMarca />
       <header className="cabecera">
         <div>
           <h1>Estado de servicios</h1>
