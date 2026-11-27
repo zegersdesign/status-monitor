@@ -410,5 +410,473 @@
     "name": "T13",
     "url": "https://www.t13.cl",
     "grupo": "Noticias"
+  },
+  {
+    "id": "google-workspace",
+    "name": "Google Workspace",
+    "url": "https://workspace.google.com",
+    "grupo": "Productividad"
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "url": "https://www.notion.so",
+    "grupo": "Productividad"
+  },
+  {
+    "id": "asana",
+    "name": "Asana",
+    "url": "https://asana.com",
+    "grupo": "Productividad"
+  },
+  {
+    "id": "monday-com",
+    "name": "monday.com",
+    "url": "https://monday.com",
+    "grupo": "Productividad"
+  },
+  {
+    "id": "trello",
+    "name": "Trello",
+    "url": "https://trello.com",
+    "grupo": "Productividad"
+  },
+  {
+    "id": "airtable",
+    "name": "Airtable",
+    "url": "https://airtable.com",
+    "grupo": "Productividad"
+  },
+  {
+    "id": "clickup",
+    "name": "ClickUp",
+    "url": "https://clickup.com",
+    "grupo": "Productividad"
+  },
+  {
+    "id": "dropbox",
+    "name": "Dropbox",
+    "url": "https://www.dropbox.com",
+    "grupo": "Productividad"
+  },
+  {
+    "id": "box",
+    "name": "Box",
+    "url": "https://www.box.com",
+    "grupo": "Productividad"
+  },
+  {
+    "id": "loom",
+    "name": "Loom",
+    "url": "https://www.loom.com",
+    "grupo": "Productividad"
+  },
+  {
+    "id": "miro",
+    "name": "Miro",
+    "url": "https://miro.com",
+    "grupo": "Productividad"
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "url": "https://www.figma.com",
+    "grupo": "Productividad"
+  },
+  {
+    "id": "canva",
+    "name": "Canva",
+    "url": "https://www.canva.com",
+    "grupo": "Productividad"
+  },
+  {
+    "id": "lucidchart",
+    "name": "Lucidchart",
+    "url": "https://www.lucidchart.com",
+    "grupo": "Productividad"
+  },
+  {
+    "id": "zapier",
+    "name": "Zapier",
+    "url": "https://zapier.com",
+    "grupo": "Productividad"
+  },
+  {
+    "id": "make",
+    "name": "Make",
+    "url": "https://www.make.com",
+    "grupo": "Productividad"
+  },
+  {
+    "id": "gitlab",
+    "name": "GitLab",
+    "url": "https://gitlab.com",
+    "grupo": "Desarrollo"
+  },
+  {
+    "id": "atlassian-jira-confluence",
+    "name": "Atlassian (Jira, Confluence)",
+    "url": "https://www.atlassian.com",
+    "grupo": "Desarrollo"
+  },
+  {
+    "id": "linear",
+    "name": "Linear",
+    "url": "https://linear.app",
+    "grupo": "Desarrollo"
+  },
+  {
+    "id": "heroku",
+    "name": "Heroku",
+    "url": "https://www.heroku.com",
+    "grupo": "Desarrollo"
+  },
+  {
+    "id": "render",
+    "name": "Render",
+    "url": "https://render.com",
+    "grupo": "Desarrollo"
+  },
+  {
+    "id": "railway",
+    "name": "Railway",
+    "url": "https://railway.app",
+    "grupo": "Desarrollo"
+  },
+  {
+    "id": "google-cloud",
+    "name": "Google Cloud",
+    "url": "https://cloud.google.com",
+    "grupo": "Desarrollo"
+  },
+  {
+    "id": "digitalocean",
+    "name": "DigitalOcean",
+    "url": "https://www.digitalocean.com",
+    "grupo": "Desarrollo"
+  },
+  {
+    "id": "firebase",
+    "name": "Firebase",
+    "url": "https://firebase.google.com",
+    "grupo": "Desarrollo"
+  },
+  {
+    "id": "mongodb-atlas",
+    "name": "MongoDB Atlas",
+    "url": "https://www.mongodb.com",
+    "grupo": "Desarrollo"
+  },
+  {
+    "id": "datadog",
+    "name": "Datadog",
+    "url": "https://www.datadoghq.com",
+    "grupo": "Desarrollo"
+  },
+  {
+    "id": "new-relic",
+    "name": "New Relic",
+    "url": "https://newrelic.com",
+    "grupo": "Desarrollo"
+  },
+  {
+    "id": "sentry",
+    "name": "Sentry",
+    "url": "https://sentry.io",
+    "grupo": "Desarrollo"
+  },
+  {
+    "id": "pagerduty",
+    "name": "PagerDuty",
+    "url": "https://www.pagerduty.com",
+    "grupo": "Desarrollo"
+  },
+  {
+    "id": "postman",
+    "name": "Postman",
+    "url": "https://www.postman.com",
+    "grupo": "Desarrollo"
+  },
+  {
+    "id": "docker-hub",
+    "name": "Docker Hub",
+    "url": "https://hub.docker.com",
+    "grupo": "Desarrollo"
+  },
+  {
+    "id": "snowflake",
+    "name": "Snowflake",
+    "url": "https://www.snowflake.com",
+    "grupo": "Desarrollo"
+  },
+  {
+    "id": "databricks",
+    "name": "Databricks",
+    "url": "https://www.databricks.com",
+    "grupo": "Desarrollo"
+  },
+  {
+    "id": "sendgrid",
+    "name": "SendGrid",
+    "url": "https://sendgrid.com",
+    "grupo": "Desarrollo"
+  },
+  {
+    "id": "auth0",
+    "name": "Auth0",
+    "url": "https://auth0.com",
+    "grupo": "Desarrollo"
+  },
+  {
+    "id": "okta",
+    "name": "Okta",
+    "url": "https://www.okta.com",
+    "grupo": "Desarrollo"
+  },
+  {
+    "id": "1password",
+    "name": "1Password",
+    "url": "https://1password.com",
+    "grupo": "Desarrollo"
+  },
+  {
+    "id": "bitwarden",
+    "name": "Bitwarden",
+    "url": "https://bitwarden.com",
+    "grupo": "Desarrollo"
+  },
+  {
+    "id": "google-gemini",
+    "name": "Google Gemini",
+    "url": "https://gemini.google.com",
+    "grupo": "IA"
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "url": "https://www.perplexity.ai",
+    "grupo": "IA"
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "url": "https://elevenlabs.io",
+    "grupo": "IA"
+  },
+  {
+    "id": "hugging-face",
+    "name": "Hugging Face",
+    "url": "https://huggingface.co",
+    "grupo": "IA"
+  },
+  {
+    "id": "grammarly",
+    "name": "Grammarly",
+    "url": "https://www.grammarly.com",
+    "grupo": "IA"
+  },
+  {
+    "id": "jasper",
+    "name": "Jasper",
+    "url": "https://www.jasper.ai",
+    "grupo": "IA"
+  },
+  {
+    "id": "otter-ai",
+    "name": "Otter.ai",
+    "url": "https://otter.ai",
+    "grupo": "IA"
+  },
+  {
+    "id": "hubspot",
+    "name": "HubSpot",
+    "url": "https://www.hubspot.com",
+    "grupo": "Ventas y marketing"
+  },
+  {
+    "id": "zendesk",
+    "name": "Zendesk",
+    "url": "https://www.zendesk.com",
+    "grupo": "Ventas y marketing"
+  },
+  {
+    "id": "intercom",
+    "name": "Intercom",
+    "url": "https://www.intercom.com",
+    "grupo": "Ventas y marketing"
+  },
+  {
+    "id": "mailchimp",
+    "name": "Mailchimp",
+    "url": "https://mailchimp.com",
+    "grupo": "Ventas y marketing"
+  },
+  {
+    "id": "klaviyo",
+    "name": "Klaviyo",
+    "url": "https://www.klaviyo.com",
+    "grupo": "Ventas y marketing"
+  },
+  {
+    "id": "pipedrive",
+    "name": "Pipedrive",
+    "url": "https://www.pipedrive.com",
+    "grupo": "Ventas y marketing"
+  },
+  {
+    "id": "zoho",
+    "name": "Zoho",
+    "url": "https://www.zoho.com",
+    "grupo": "Ventas y marketing"
+  },
+  {
+    "id": "freshworks",
+    "name": "Freshworks",
+    "url": "https://www.freshworks.com",
+    "grupo": "Ventas y marketing"
+  },
+  {
+    "id": "semrush",
+    "name": "Semrush",
+    "url": "https://www.semrush.com",
+    "grupo": "Ventas y marketing"
+  },
+  {
+    "id": "ahrefs",
+    "name": "Ahrefs",
+    "url": "https://ahrefs.com",
+    "grupo": "Ventas y marketing"
+  },
+  {
+    "id": "hootsuite",
+    "name": "Hootsuite",
+    "url": "https://www.hootsuite.com",
+    "grupo": "Ventas y marketing"
+  },
+  {
+    "id": "buffer",
+    "name": "Buffer",
+    "url": "https://buffer.com",
+    "grupo": "Ventas y marketing"
+  },
+  {
+    "id": "typeform",
+    "name": "Typeform",
+    "url": "https://www.typeform.com",
+    "grupo": "Ventas y marketing"
+  },
+  {
+    "id": "quickbooks",
+    "name": "QuickBooks",
+    "url": "https://quickbooks.intuit.com",
+    "grupo": "Finanzas y RR. HH."
+  },
+  {
+    "id": "xero",
+    "name": "Xero",
+    "url": "https://www.xero.com",
+    "grupo": "Finanzas y RR. HH."
+  },
+  {
+    "id": "bill-com",
+    "name": "Bill.com",
+    "url": "https://www.bill.com",
+    "grupo": "Finanzas y RR. HH."
+  },
+  {
+    "id": "expensify",
+    "name": "Expensify",
+    "url": "https://www.expensify.com",
+    "grupo": "Finanzas y RR. HH."
+  },
+  {
+    "id": "gusto",
+    "name": "Gusto",
+    "url": "https://gusto.com",
+    "grupo": "Finanzas y RR. HH."
+  },
+  {
+    "id": "rippling",
+    "name": "Rippling",
+    "url": "https://www.rippling.com",
+    "grupo": "Finanzas y RR. HH."
+  },
+  {
+    "id": "deel",
+    "name": "Deel",
+    "url": "https://www.deel.com",
+    "grupo": "Finanzas y RR. HH."
+  },
+  {
+    "id": "workday",
+    "name": "Workday",
+    "url": "https://www.workday.com",
+    "grupo": "Finanzas y RR. HH."
+  },
+  {
+    "id": "adp",
+    "name": "ADP",
+    "url": "https://www.adp.com",
+    "grupo": "Finanzas y RR. HH."
+  },
+  {
+    "id": "bamboohr",
+    "name": "BambooHR",
+    "url": "https://www.bamboohr.com",
+    "grupo": "Finanzas y RR. HH."
+  },
+  {
+    "id": "docusign",
+    "name": "DocuSign",
+    "url": "https://www.docusign.com",
+    "grupo": "Finanzas y RR. HH."
+  },
+  {
+    "id": "adobe-sign",
+    "name": "Adobe Sign",
+    "url": "https://www.adobe.com/sign.html",
+    "grupo": "Finanzas y RR. HH."
+  },
+  {
+    "id": "adobe-creative-cloud",
+    "name": "Adobe Creative Cloud",
+    "url": "https://www.adobe.com/creativecloud.html",
+    "grupo": "Diseño y web"
+  },
+  {
+    "id": "webflow",
+    "name": "Webflow",
+    "url": "https://webflow.com",
+    "grupo": "Diseño y web"
+  },
+  {
+    "id": "squarespace",
+    "name": "Squarespace",
+    "url": "https://www.squarespace.com",
+    "grupo": "Diseño y web"
+  },
+  {
+    "id": "wix",
+    "name": "Wix",
+    "url": "https://www.wix.com",
+    "grupo": "Diseño y web"
+  },
+  {
+    "id": "wordpress-com",
+    "name": "WordPress.com",
+    "url": "https://wordpress.com",
+    "grupo": "Diseño y web"
+  },
+  {
+    "id": "framer",
+    "name": "Framer",
+    "url": "https://www.framer.com",
+    "grupo": "Diseño y web"
+  },
+  {
+    "id": "shopify",
+    "name": "Shopify",
+    "url": "https://www.shopify.com",
+    "grupo": "Diseño y web"
   }
 ]
