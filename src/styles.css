@@ -58,3 +58,7 @@ footer p { margin: 0 0 8px; }
   .grid { grid-template-columns: 1fr 1fr; }
   .resumen { align-items: flex-start; }
 }
+.marca { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+.marca svg { flex-shrink: 0; }
+.marca-nombre { display: block; font-size: 20px; letter-spacing: .08em; color: var(--texto); }
+.marca-sub { display: block; font-size: 11px; letter-spacing: .18em; color: var(--acento); }
